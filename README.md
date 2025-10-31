@@ -11,9 +11,11 @@ A FastAPI backend that accepts an image upload, runs computer AI vision detectio
 
 ## 📁 Output
 ![Annotated detection result](output/output.png) <br>
-`Output Sample Image with annotated`
+`Output Sample Image with annotated` <br><br>
 ![Annotated detection result](output/api-list.png) <br>
+`API List` <br><br>
 ![Annotated detection result](output/response-img-analysis.png) <br>
+`JSON Response` <br><br>
 
 
 ---
