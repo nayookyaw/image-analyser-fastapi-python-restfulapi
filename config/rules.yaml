@@ -1,0 +1,7 @@
+
+# Thresholds & weights for RuleEngine; override by setting
+proximity_threshold: 120   # pixels
+missing_ppe_labels: ["helmet", "vest"]
+weights:
+  proximity: 0.7
+  ppe: 0.3

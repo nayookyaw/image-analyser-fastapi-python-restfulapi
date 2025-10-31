@@ -1,0 +1,12 @@
+
+# Add these to your [project] dependencies in pyproject.toml:
+# - fastapi
+# - uvicorn
+# - pillow
+# - pydantic
+# - pydantic-settings (optional, if you add settings classes)
+# - python-multipart
+# - onnxruntime (optional; if using ONNX)
+# - numpy
+# - pytest (dev)
+# - pyyaml

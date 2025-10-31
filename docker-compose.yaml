@@ -1,0 +1,12 @@
+
+services:
+  python-api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - RULE_CONFIG_PATH=/app/config/rules.yaml
+    env_file:
+      - .env
+    volumes:
+      - ./src:/app/src:ro
