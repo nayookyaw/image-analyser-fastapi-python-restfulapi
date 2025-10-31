@@ -6,11 +6,12 @@
 A FastAPI backend that accepts an image upload, runs computer AI vision detection (YOLOv8 ONNX), evaluates simple safety rules (proximity + PPE), and returns a structured risk assessment.
 
 ## How to run backend API FastAPI server
-`uv sync`
+`uv sync` <br>
 `uv run uvicorn image_analyser_backend.app:app --reload`
 
 ## 📁 Output
 ![Annotated detection result](output/output.png) <br>
+`Output Sample Image with annotated`
 ![Annotated detection result](output/api-list.png) <br>
 ![Annotated detection result](output/response-img-analysis.png) <br>
 
